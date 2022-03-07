@@ -1,0 +1,23 @@
+.App {
+  height: 100vh;
+  background: url('https://source.unsplash.com/collection/1408037/1600x900') no-repeat center / cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Main Container
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  min-height: 364px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0px 10px #111;
+  mix-blend-mode: difference;
+  user-select: none;
+}
