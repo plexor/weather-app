@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.scss';
+import { WeatherData } from './components/WeatherData'
+
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -92,7 +96,7 @@ componentWillUnmount() {
     return (
       <div className='App'>
         <div className='container'>
-
+        <WeatherData />
         </div>
       </div>
     );
